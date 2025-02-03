@@ -12,7 +12,7 @@ export default function Join() {
         e.preventDefault();
         navigate('/chat', {state: {username, room}});
     };
-
+/*APRENDENDO HTML*/
     return (
         <div className='join-container'>
             <header><FontAwesomeIcon icon={faSmile}/>
